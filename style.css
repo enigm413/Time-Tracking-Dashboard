@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: hsl(226, 43%, 10%);
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.time-tracking-dashboard {
+  max-width: 128rem;
+  margin: 9.6rem auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.profile-card-wrapper {
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 2rem;
+  grid-row: span 2;
+}
+
+.profile-card {
+  background-color: hsl(246, 80%, 60%);
+  padding: 3.2rem;
+  border-radius: 2rem;
+}
+
+.profile-image {
+  max-width: 8rem;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin-bottom: 3.2rem;
+}
+
+.dashboard-title {
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin-bottom: 0.8rem;
+}
+
+.profile-name {
+  font-size: 4.8rem;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  margin-bottom: 3.2rem;
+}
+
+.btn-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  padding: 3.6rem 3.2rem;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+  color: hsl(235, 45%, 61%);
+  text-align: left;
+  letter-spacing: 0.3px;
+  font-size: 1.6rem;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+.time-tracking-card-wrapper {
+  padding-top: 5.6rem;
+  background-position: top -0.4rem right 2rem;
+  background-size: 6.4rem 6.4rem;
+  background-repeat: no-repeat;
+  border-radius: 2rem;
+}
+
+.work-card-wrapper {
+  background-color: hsl(15, 100%, 70%);
+  background-image: url(Images/icon-work.svg);
+}
+
+.play-card-wrapper {
+  background-color: hsl(195, 74%, 62%);
+  background-image: url(Images/icon-play.svg);
+}
+
+.study-card-wrapper {
+  background-color: hsl(348, 100%, 68%);
+  background-image: url(Images/icon-study.svg);
+}
+
+.exercise-card-wrapper {
+  background-color: hsl(145, 58%, 55%);
+  background-image: url(Images/icon-exercise.svg);
+}
+
+.social-card-wrapper {
+  background-color: hsl(264, 64%, 52%);
+  background-image: url(Images/icon-social.svg);
+}
+
+.self-care-card-wrapper {
+  background-color: hsl(43, 84%, 65%);
+  background-image: url(Images/icon-self-care.svg);
+}
+
+.time-tracking-card {
+  background-color: hsl(235, 46%, 20%);
+  padding: 2.4rem 2.8rem;
+  border-radius: 2rem;
+  max-width: 100%;
+}
+
+.title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.card-title {
+  font-size: 1.8rem;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+}
+
+.tracked-time {
+  font-size: 5.6rem;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  margin-bottom: 2.4rem;
+}
+
+.prev-tracked-time {
+  color: hsl(235, 45%, 61%);
+  font-weight: 400;
+}
