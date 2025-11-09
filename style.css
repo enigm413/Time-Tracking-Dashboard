@@ -69,6 +69,11 @@ body {
   text-align: left;
   letter-spacing: 0.3px;
   font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.btn--selected {
+  color: #fff;
 }
 
 .btn:hover {
@@ -118,6 +123,12 @@ body {
   padding: 2.4rem 2.8rem;
   border-radius: 2rem;
   max-width: 100%;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.time-tracking-card:hover {
+  background-color: hsl(236, 35%, 30%);
 }
 
 .title-wrapper {
@@ -133,6 +144,10 @@ body {
   letter-spacing: 0.7px;
 }
 
+.dotted-btn:hover {
+  filter: brightness(0) invert(1);
+}
+
 .tracked-time {
   font-size: 5.6rem;
   font-weight: 100;
@@ -141,6 +156,6 @@ body {
 }
 
 .prev-tracked-time {
-  color: hsl(235, 45%, 61%);
+  color: hsl(236, 100%, 87%);
   font-weight: 400;
 }
