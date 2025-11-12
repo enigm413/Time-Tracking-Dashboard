@@ -55,25 +55,34 @@ body {
   margin-bottom: 3.2rem;
 }
 
-.btn-wrapper {
+.tags {
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
-  padding: 3.6rem 3.2rem;
+  padding: 3.2rem;
+  list-style: none;
+}
+
+.tag {
+  color: hsl(235, 45%, 61%);
+  text-align: left;
+  letter-spacing: 0.3px;
+  font-size: 1.8rem;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.tag--selected {
+  color: #fff;
 }
 
 .btn {
   border: none;
   background-color: transparent;
-  color: hsl(235, 45%, 61%);
   text-align: left;
   letter-spacing: 0.3px;
   font-size: 1.6rem;
   cursor: pointer;
-}
-
-.btn--selected {
-  color: #fff;
 }
 
 .btn:hover {
@@ -158,4 +167,5 @@ body {
 .prev-tracked-time {
   color: hsl(236, 100%, 87%);
   font-weight: 400;
+  text-transform: capitalize;
 }
