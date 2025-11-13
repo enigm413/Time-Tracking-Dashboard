@@ -29,8 +29,11 @@ async function setCard({ title, timeframes }) {
       />
     </button>
   </div>
-  <p class="tracked-time">${timeframes[currentTag].current}hrs</p>
-  <p class="prev-tracked-time">${timeframeText} - ${timeframes[currentTag].previous}hrs</p>
+
+  <div class="text-wrapper">
+    <p class="tracked-time">${timeframes[currentTag].current}hrs</p>
+    <p class="prev-tracked-time">${timeframeText} - ${timeframes[currentTag].previous}hrs</p>
+  </div>
 </div>`;
   return card;
 }

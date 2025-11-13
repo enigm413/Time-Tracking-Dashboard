@@ -16,7 +16,7 @@ body {
 }
 
 .time-tracking-dashboard {
-  max-width: 128rem;
+  max-width: 112rem;
   margin: 9.6rem auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -31,7 +31,7 @@ body {
 
 .profile-card {
   background-color: hsl(246, 80%, 60%);
-  padding: 3.2rem;
+  padding: 3.2rem 2.4rem 4rem 2.4rem;
   border-radius: 2rem;
 }
 
@@ -45,14 +45,19 @@ body {
 .dashboard-title {
   font-size: 1.6rem;
   font-weight: 300;
-  margin-bottom: 0.8rem;
+}
+
+.profile-card-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 3.2rem;
 }
 
 .profile-name {
-  font-size: 4.8rem;
+  font-size: 4.4rem;
   font-weight: 100;
-  letter-spacing: 0.5px;
-  margin-bottom: 3.2rem;
+  letter-spacing: 1px;
 }
 
 .tags {
@@ -99,32 +104,32 @@ body {
 
 .work-card-wrapper {
   background-color: hsl(15, 100%, 70%);
-  background-image: url(Images/icon-work.svg);
+  background-image: url(../Images/icon-work.svg);
 }
 
 .play-card-wrapper {
   background-color: hsl(195, 74%, 62%);
-  background-image: url(Images/icon-play.svg);
+  background-image: url(../Images/icon-play.svg);
 }
 
 .study-card-wrapper {
   background-color: hsl(348, 100%, 68%);
-  background-image: url(Images/icon-study.svg);
+  background-image: url(../Images/icon-study.svg);
 }
 
 .exercise-card-wrapper {
   background-color: hsl(145, 58%, 55%);
-  background-image: url(Images/icon-exercise.svg);
+  background-image: url(../Images/icon-exercise.svg);
 }
 
 .social-card-wrapper {
   background-color: hsl(264, 64%, 52%);
-  background-image: url(Images/icon-social.svg);
+  background-image: url(../Images/icon-social.svg);
 }
 
 .self-care-card-wrapper {
   background-color: hsl(43, 84%, 65%);
-  background-image: url(Images/icon-self-care.svg);
+  background-image: url(../Images/icon-self-care.svg);
 }
 
 .time-tracking-card {
@@ -132,7 +137,6 @@ body {
   padding: 2.4rem 2.8rem;
   border-radius: 2rem;
   max-width: 100%;
-  z-index: 5;
   cursor: pointer;
 }
 
@@ -157,11 +161,16 @@ body {
   filter: brightness(0) invert(1);
 }
 
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
 .tracked-time {
   font-size: 5.6rem;
   font-weight: 100;
   letter-spacing: 0.5px;
-  margin-bottom: 2.4rem;
 }
 
 .prev-tracked-time {
