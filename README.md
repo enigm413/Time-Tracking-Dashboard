@@ -16,7 +16,7 @@ The dashboard displays an interactive personal time tracking interface featuring
 
 ### Project Preview
 
-![Project Preview](./Images/screenshots/desktop-preview.png)
+![Project Preview](./Images/Screenshots/desktop-preview.png)
 
 ## Features
 
@@ -65,10 +65,7 @@ project-root/
     ├── icon-self-care.svg           # Self care activity icon
     ├── icon-ellipsis.svg            # Menu icon
     └── screenshots/
-        ├── desktop-preview.png      # Desktop screenshot
-        ├── large-tablet-preview.png # Large tablet screenshot
-        ├── small-tablet-preview.png # Small tablet screenshot
-        └── mobile-preview.png       # Mobile screenshot
+        └── desktop-preview.png       # Desktop screenshot
 ```
 
 ## Usage
